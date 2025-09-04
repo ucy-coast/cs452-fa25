@@ -1,0 +1,39 @@
+
+version: "3"
+
+services:
+  webserver:
+    image: websearch_webserver
+    container_name: 'websearch_webserver'
+    entrypoint: /webserver
+    command: >
+      -addr=0.0.0.0:8080
+      -shards=indexserver:9090
+      -htmlPath=/index.html
+      -topk=10
+      -mmcAddr=memcached:11211
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - indexserver
+      - memcached
+    networks:
+      - websearchnet
+
+  indexserver:
+    image: websearch_indexserver
+    container_name: 'websearch_indexserver'
+    entrypoint: /indexserver
+    command: >
+      -rpc_addr=0.0.0.0:9090
+      -index_files=/index/invertedindex-medium.txt
+    ports:
+      - "9090:9090"
+    restart: always
+    networks:
+      - websearchnet
+
+networks:
+  websearchnet:
+    driver: bridge

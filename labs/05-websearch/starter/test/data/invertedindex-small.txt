@@ -1,0 +1,10 @@
+adventure: 8 pg-being_ernest.txt, pg-dorian_gray.txt, pg-emma.txt, pg-frankenstein.txt, pg-les_miserables.txt, pg-moby_dick.txt, pg-sherlock_holmes.txt, pg-war_and_peace.txt
+mystery: 9 pg-being_ernest.txt, pg-dorian_gray.txt, pg-dracula.txt, pg-grimm.txt, pg-huckleberry_finn.txt, pg-les_miserables.txt, pg-sherlock_holmes.txt, pg-tale_of_two_cities.txt, pg-ulysses.txt
+friendship: 10 pg-being_ernest.txt, pg-emma.txt, pg-frankenstein.txt, pg-great_expectations.txt, pg-grimm.txt, pg-les_miserables.txt, pg-moby_dick.txt, pg-sherlock_holmes.txt, pg-tale_of_two_cities.txt, pg-war_and_peace.txt
+journey: 7 pg-dorian_gray.txt, pg-dracula.txt, pg-frankenstein.txt, pg-grimm.txt, pg-les_miserables.txt, pg-tom_sawyer.txt, pg-ulysses.txt
+danger: 6 pg-dracula.txt, pg-frankenstein.txt, pg-grimm.txt, pg-les_miserables.txt, pg-moby_dick.txt, pg-ulysses.txt
+betrayal: 8 pg-being_ernest.txt, pg-dorian_gray.txt, pg-emma.txt, pg-great_expectations.txt, pg-grimm.txt, pg-les_miserables.txt, pg-tale_of_two_cities.txt, pg-war_and_peace.txt
+courage: 5 pg-being_ernest.txt, pg-dracula.txt, pg-frankenstein.txt, pg-les_miserables.txt, pg-tom_sawyer.txt
+hope: 9 pg-being_ernest.txt, pg-dorian_gray.txt, pg-emma.txt, pg-grimm.txt, pg-huckleberry_finn.txt, pg-les_miserables.txt, pg-moby_dick.txt, pg-tale_of_two_cities.txt, pg-war_and_peace.txt
+destiny: 7 pg-dorian_gray.txt, pg-dracula.txt, pg-emma.txt, pg-grimm.txt, pg-les_miserables.txt, pg-sherlock_holmes.txt, pg-tom_sawyer.txt
+legacy: 6 pg-being_ernest.txt, pg-emma.txt, pg-frankenstein.txt, pg-grimm.txt, pg-moby_dick.txt, pg-ulysses.txt

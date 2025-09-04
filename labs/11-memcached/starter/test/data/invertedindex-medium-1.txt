@@ -1,0 +1,44 @@
+adventure: 4 pg-frankenstein.txt, pg-odyssey.txt, pg-war_and_peace.txt, pg-sherlock_holmes.txt
+mystery: 8 pg-sherlock_holmes.txt, pg-woman_white.txt, pg-hound_baskervilles.txt, pg-dorian_gray.txt, pg-nancy_drew.txt, pg-murder_orient.txt, pg-les_miserables.txt, pg-phantom_opera.txt
+friendship: 6 pg-little_women.txt, pg-secret_garden.txt, pg-huckleberry_finn.txt, pg-moby_dick.txt, pg-great_expectations.txt, pg-charlotte_web.txt
+journey: 4 pg-gullivers_travels.txt, pg-war_and_peace.txt, pg-grimm.txt, pg-beowulf.txt
+courage: 6 pg-frankenstein.txt, pg-hobbit.txt, pg-little_women.txt, pg-les_miserables.txt, pg-anne_green_gables.txt, pg-hunger_games.txt
+love: 6 pg-dorian_gray.txt, pg-les_miserables.txt, pg-rebecca.txt, pg-little_women.txt, pg-wuthering_heights.txt, pg-bronte_jane_eyre.txt
+revenge: 4 pg-hound_baskervilles.txt, pg-war_and_peace.txt, pg-dorian_gray.txt, pg-beowulf.txt
+justice: 6 pg-sherlock_holmes.txt, pg-to_kill_a_mockingbird.txt, pg-frankenstein.txt, pg-les_miserables.txt, pg-great_expectations.txt, pg-mockingbird.txt
+freedom: 3 pg-uncle_toms_cabin.txt, pg-hobbit.txt, pg-great_expectations.txt
+survival: 7 pg-hunger_games.txt, pg-beowulf.txt, pg-robinson_crusoe.txt, pg-frankenstein.txt, pg-grimm.txt, pg-gullivers_travels.txt, pg-tom_sawyer.txt
+sacrifice: 5 pg-les_miserables.txt, pg-hobbit.txt, pg-anne_green_gables.txt, pg-mockingbird.txt, pg-pride_prejudice.txt
+transformation: 3 pg-dorian_gray.txt, pg-frankenstein.txt, pg-hobbit.txt
+wisdom: 3 pg-pilgrims_progress.txt, pg-charlotte_web.txt, pg-grimm.txt
+honor: 4 pg-war_and_peace.txt, pg-robin_hood.txt, pg-beowulf.txt, pg-woman_white.txt
+loyalty: 2 pg-tom_sawyer.txt, pg-woman_white.txt
+innocence: 5 pg-charlotte_web.txt, pg-little_women.txt, pg-secret_garden.txt, pg-tom_sawyer.txt, pg-anne_green_gables.txt
+grief: 4 pg-bronte_jane_eyre.txt, pg-mockingbird.txt, pg-great_gatsby.txt, pg-hunger_games.txt
+loss: 5 pg-frankenstein.txt, pg-brave_new_world.txt, pg-mockingbird.txt, pg-charlotte_web.txt, pg-grimm.txt
+redemption: 3 pg-les_miserables.txt, pg-rebecca.txt, pg-tale_of_two_cities.txt
+power: 5 pg-dracula.txt, pg-great_gatsby.txt, pg-les_miserables.txt, pg-brave_new_world.txt, pg-ulysses.txt
+deception: 4 pg-sherlock_holmes.txt, pg-great_gatsby.txt, pg-hound_baskervilles.txt, pg-mockingbird.txt
+discovery: 3 pg-robinson_crusoe.txt, pg-secret_garden.txt, pg-grimm.txt
+escape: 2 pg-rebecca.txt, pg-robin_hood.txt
+tradition: 5 pg-anne_green_gables.txt, pg-great_expectations.txt, pg-woman_white.txt, pg-little_women.txt, pg-pilgrims_progress.txt
+ambition: 5 pg-hobbit.txt, pg-pride_prejudice.txt, pg-dracula.txt, pg-wuthering_heights.txt, pg-ulysses.txt
+truth: 2 pg-to_kill_a_mockingbird.txt, pg-frankenstein.txt
+memory: 4 pg-great_gatsby.txt, pg-ulysses.txt, pg-brave_new_world.txt, pg-frankenstein.txt
+isolation: 4 pg-gullivers_travels.txt, pg-beowulf.txt, pg-wuthering_heights.txt, pg-robinson_crusoe.txt
+unity: 5 pg-war_and_peace.txt, pg-little_women.txt, pg-anne_green_gables.txt, pg-being_ernest.txt, pg-hobbit.txt
+resilience: 3 pg-holes.txt, pg-woman_white.txt, pg-mockingbird.txt
+conflict: 3 pg-dracula.txt, pg-war_and_peace.txt, pg-tale_of_two_cities.txt
+healing: 4 pg-secret_garden.txt, pg-charlotte_web.txt, pg-bronte_jane_eyre.txt, pg-holes.txt
+fate: 5 pg-ulysses.txt, pg-frankenstein.txt, pg-dorian_gray.txt, pg-les_miserables.txt, pg-mockingbird.txt
+rebellion: 5 pg-hunger_games.txt, pg-brave_new_world.txt, pg-wuthering_heights.txt, pg-ulysses.txt, pg-war_and_peace.txt
+leadership: 2 pg-three_musketeers.txt, pg-mockingbird.txt
+compassion: 1 pg-anne_green_gables.txt
+nostalgia: 1 pg-charlotte_web.txt
+temptation: 3 pg-wuthering_heights.txt, pg-pride_prejudice.txt, pg-great_gatsby.txt
+exile: 2 pg-dracula.txt, pg-ulysses.txt
+secrecy: 3 pg-phantom_opera.txt, pg-sherlock_holmes.txt, pg-great_gatsby.txt
+guilt: 4 pg-bronte_jane_eyre.txt, pg-les_miserables.txt, pg-ulysses.txt, pg-being_ernest.txt
+chaos: 2 pg-hunger_games.txt, pg-phantom_opera.txt
+fear: 2 pg-dracula.txt, pg-grimm.txt
+endurance: 3 pg-beowulf.txt, pg-hobbit.txt, pg-war_and_peace.txt

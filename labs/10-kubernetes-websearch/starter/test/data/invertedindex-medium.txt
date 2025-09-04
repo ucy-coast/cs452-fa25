@@ -1,0 +1,45 @@
+adventure: 13 pg-around_world.txt, pg-dorian_gray.txt, pg-emma.txt, pg-frankenstein.txt, pg-odyssey.txt, pg-moby_dick.txt, pg-robin_hood.txt, pg-war_and_peace.txt, pg-ulysses.txt, pg-huckleberry_finn.txt, pg-gullivers_travels.txt, pg-sherlock_holmes.txt, pg-three_musketeers.txt
+mystery: 12 pg-sherlock_holmes.txt, pg-dracula.txt, pg-woman_white.txt, pg-hound_baskervilles.txt, pg-rebecca.txt, pg-ulysses.txt, pg-dorian_gray.txt, pg-nancy_drew.txt, pg-murder_orient.txt, pg-huckleberry_finn.txt, pg-les_miserables.txt, pg-phantom_opera.txt
+friendship: 10 pg-emma.txt, pg-little_women.txt, pg-secret_garden.txt, pg-huckleberry_finn.txt, pg-tom_sawyer.txt, pg-moby_dick.txt, pg-anne_green_gables.txt, pg-great_expectations.txt, pg-charlotte_web.txt, pg-holes.txt
+journey: 14 pg-odyssey.txt, pg-hobbit.txt, pg-gullivers_travels.txt, pg-pilgrims_progress.txt, pg-dorian_gray.txt, pg-ulysses.txt, pg-war_and_peace.txt, pg-frankenstein.txt, pg-robinson_crusoe.txt, pg-dracula.txt, pg-tom_sawyer.txt, pg-les_miserables.txt, pg-grimm.txt, pg-beowulf.txt
+courage: 11 pg-tom_sawyer.txt, pg-frankenstein.txt, pg-hobbit.txt, pg-little_women.txt, pg-war_and_peace.txt, pg-being_ernest.txt, pg-robin_hood.txt, pg-les_miserables.txt, pg-anne_green_gables.txt, pg-hunger_games.txt, pg-mockingbird.txt
+love: 10 pg-emma.txt, pg-dorian_gray.txt, pg-great_gatsby.txt, pg-les_miserables.txt, pg-rebecca.txt, pg-little_women.txt, pg-wuthering_heights.txt, pg-pride_prejudice.txt, pg-tale_of_two_cities.txt, pg-bronte_jane_eyre.txt
+revenge: 8 pg-dracula.txt, pg-hound_baskervilles.txt, pg-moby_dick.txt, pg-count_monte_cristo.txt, pg-war_and_peace.txt, pg-ulysses.txt, pg-dorian_gray.txt, pg-beowulf.txt
+justice: 9 pg-sherlock_holmes.txt, pg-to_kill_a_mockingbird.txt, pg-frankenstein.txt, pg-les_miserables.txt, pg-ulysses.txt, pg-great_expectations.txt, pg-war_and_peace.txt, pg-mockingbird.txt, pg-tale_of_two_cities.txt
+freedom: 7 pg-uncle_toms_cabin.txt, pg-les_miserables.txt, pg-hunger_games.txt, pg-hobbit.txt, pg-war_and_peace.txt, pg-great_expectations.txt, pg-frankenstein.txt
+survival: 11 pg-hunger_games.txt, pg-beowulf.txt, pg-robinson_crusoe.txt, pg-war_and_peace.txt, pg-dracula.txt, pg-ulysses.txt, pg-frankenstein.txt, pg-holes.txt, pg-grimm.txt, pg-gullivers_travels.txt, pg-tom_sawyer.txt
+sacrifice: 8 pg-war_and_peace.txt, pg-les_miserables.txt, pg-hobbit.txt, pg-anne_green_gables.txt, pg-mockingbird.txt, pg-frankenstein.txt, pg-brave_new_world.txt, pg-pride_prejudice.txt
+transformation: 7 pg-dorian_gray.txt, pg-frankenstein.txt, pg-hobbit.txt, pg-little_women.txt, pg-great_gatsby.txt, pg-hunger_games.txt, pg-brave_new_world.txt
+wisdom: 6 pg-being_ernest.txt, pg-pilgrims_progress.txt, pg-hobbit.txt, pg-anne_green_gables.txt, pg-charlotte_web.txt, pg-grimm.txt
+honor: 9 pg-three_musketeers.txt, pg-war_and_peace.txt, pg-frankenstein.txt, pg-robin_hood.txt, pg-beowulf.txt, pg-great_expectations.txt, pg-hobbit.txt, pg-les_miserables.txt, pg-woman_white.txt
+loyalty: 8 pg-war_and_peace.txt, pg-hobbit.txt, pg-tom_sawyer.txt, pg-gullivers_travels.txt, pg-anne_green_gables.txt, pg-three_musketeers.txt, pg-woman_white.txt, pg-sherlock_holmes.txt
+innocence: 7 pg-charlotte_web.txt, pg-little_women.txt, pg-secret_garden.txt, pg-tom_sawyer.txt, pg-holes.txt, pg-anne_green_gables.txt, pg-being_ernest.txt
+grief: 6 pg-dorian_gray.txt, pg-bronte_jane_eyre.txt, pg-mockingbird.txt, pg-great_gatsby.txt, pg-hunger_games.txt, pg-ulysses.txt
+loss: 7 pg-frankenstein.txt, pg-brave_new_world.txt, pg-mockingbird.txt, pg-little_women.txt, pg-charlotte_web.txt, pg-hunger_games.txt, pg-grimm.txt
+redemption: 10 pg-les_miserables.txt, pg-war_and_peace.txt, pg-ulysses.txt, pg-rebecca.txt, pg-tale_of_two_cities.txt, pg-secret_garden.txt, pg-frankenstein.txt, pg-bronte_jane_eyre.txt, pg-count_monte_cristo.txt, pg-phantom_opera.txt
+power: 8 pg-hunger_games.txt, pg-dracula.txt, pg-frankenstein.txt, pg-great_gatsby.txt, pg-les_miserables.txt, pg-wuthering_heights.txt, pg-brave_new_world.txt, pg-ulysses.txt
+deception: 9 pg-dorian_gray.txt, pg-dracula.txt, pg-sherlock_holmes.txt, pg-rebecca.txt, pg-great_gatsby.txt, pg-hound_baskervilles.txt, pg-mockingbird.txt, pg-phantom_opera.txt, pg-brave_new_world.txt
+discovery: 8 pg-robinson_crusoe.txt, pg-gullivers_travels.txt, pg-ulysses.txt, pg-secret_garden.txt, pg-holes.txt, pg-frankenstein.txt, pg-charlotte_web.txt, pg-grimm.txt
+escape: 6 pg-hunger_games.txt, pg-huckleberry_finn.txt, pg-pilgrims_progress.txt, pg-beowulf.txt, pg-rebecca.txt, pg-robin_hood.txt
+tradition: 7 pg-anne_green_gables.txt, pg-secret_garden.txt, pg-great_expectations.txt, pg-woman_white.txt, pg-little_women.txt, pg-hobbit.txt, pg-pilgrims_progress.txt
+ambition: 7 pg-dorian_gray.txt, pg-great_gatsby.txt, pg-hobbit.txt, pg-pride_prejudice.txt, pg-dracula.txt, pg-wuthering_heights.txt, pg-ulysses.txt
+truth: 6 pg-to_kill_a_mockingbird.txt, pg-frankenstein.txt, pg-great_expectations.txt, pg-brave_new_world.txt, pg-being_ernest.txt, pg-sherlock_holmes.txt
+memory: 5 pg-great_gatsby.txt, pg-ulysses.txt, pg-mockingbird.txt, pg-brave_new_world.txt, pg-frankenstein.txt
+isolation: 7 pg-frankenstein.txt, pg-gullivers_travels.txt, pg-beowulf.txt, pg-wuthering_heights.txt, pg-robinson_crusoe.txt, pg-les_miserables.txt, pg-ulysses.txt
+unity: 6 pg-war_and_peace.txt, pg-three_musketeers.txt, pg-little_women.txt, pg-anne_green_gables.txt, pg-being_ernest.txt, pg-hobbit.txt
+resilience: 6 pg-holes.txt, pg-hunger_games.txt, pg-beowulf.txt, pg-woman_white.txt, pg-mockingbird.txt, pg-war_and_peace.txt
+conflict: 8 pg-dracula.txt, pg-war_and_peace.txt, pg-frankenstein.txt, pg-tale_of_two_cities.txt, pg-hunger_games.txt, pg-ulysses.txt, pg-les_miserables.txt, pg-count_monte_cristo.txt
+healing: 6 pg-secret_garden.txt, pg-charlotte_web.txt, pg-bronte_jane_eyre.txt, pg-holes.txt, pg-anne_green_gables.txt, pg-being_ernest.txt
+fate: 7 pg-ulysses.txt, pg-frankenstein.txt, pg-dorian_gray.txt, pg-brave_new_world.txt, pg-odyssey.txt, pg-les_miserables.txt, pg-mockingbird.txt
+rebellion: 6 pg-hunger_games.txt, pg-brave_new_world.txt, pg-wuthering_heights.txt, pg-dracula.txt, pg-ulysses.txt, pg-war_and_peace.txt
+leadership: 5 pg-war_and_peace.txt, pg-robin_hood.txt, pg-three_musketeers.txt, pg-to_kill_a_mockingbird.txt, pg-mockingbird.txt
+compassion: 7 pg-little_women.txt, pg-to_kill_a_mockingbird.txt, pg-bronte_jane_eyre.txt, pg-les_miserables.txt, pg-anne_green_gables.txt, pg-being_ernest.txt, pg-charlotte_web.txt
+nostalgia: 5 pg-secret_garden.txt, pg-little_women.txt, pg-holes.txt, pg-anne_green_gables.txt, pg-charlotte_web.txt
+temptation: 5 pg-dorian_gray.txt, pg-dracula.txt, pg-wuthering_heights.txt, pg-pride_prejudice.txt, pg-great_gatsby.txt
+exile: 6 pg-robinson_crusoe.txt, pg-beowulf.txt, pg-frankenstein.txt, pg-dracula.txt, pg-war_and_peace.txt, pg-ulysses.txt
+secrecy: 6 pg-phantom_opera.txt, pg-dracula.txt, pg-sherlock_holmes.txt, pg-woman_white.txt, pg-great_gatsby.txt, pg-dorian_gray.txt
+guilt: 6 pg-frankenstein.txt, pg-bronte_jane_eyre.txt, pg-les_miserables.txt, pg-hobbit.txt, pg-ulysses.txt, pg-being_ernest.txt
+chaos: 5 pg-hunger_games.txt, pg-dracula.txt, pg-frankenstein.txt, pg-war_and_peace.txt, pg-phantom_opera.txt
+peace: 5 pg-war_and_peace.txt, pg-being_ernest.txt, pg-anne_green_gables.txt, pg-secret_garden.txt, pg-hobbit.txt
+fear: 6 pg-dracula.txt, pg-hound_baskervilles.txt, pg-phantom_opera.txt, pg-hunger_games.txt, pg-grimm.txt, pg-frankenstein.txt
+endurance: 6 pg-beowulf.txt, pg-holes.txt, pg-hobbit.txt, pg-war_and_peace.txt, pg-frankenstein.txt, pg-robinson_crusoe.txt
