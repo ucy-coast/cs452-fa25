@@ -398,6 +398,11 @@ Now the file is in the web server’s root directory, and it should be accessibl
 
 Verify by visiting `http://<remote-host-ip>` and checking that your static page loads.
 
+## Optional: Automating with Ansible
+
+While `parallel-ssh` makes it easier to run commands across multiple hosts, it doesn't address deeper challenges like tracking system state, managing dependencies, or ensuring repeatable outcomes. To truly address these challenges, DevOps engineers rely on configuration management tools like Ansible, Terraform, or Chef. These tools use SSH under the hood, but provide powerful features for automation, repeatability, scalability, and version-controlled infrastructure.
+
+[Ansible](https://www.ansible.com/) is a modern configuration management tool that facilitates the task of setting up and maintaining remote servers. You can find more details about Ansible in the [extended lab tutorial](docs/ansible.md). 
 
 ## Exercise: Parallel Nginx Log Collection and Search
 
@@ -408,4 +413,3 @@ Objective: Collect and analyze nginx access logs from multiple servers.
 - Summarize the number of errors found per host.
 
 💡 Hint: To generate errors, try requesting missing pages for 404 errors: `curl http://nodeX/nonexistent`
-
