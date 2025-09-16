@@ -118,7 +118,8 @@ If you don’t have a GitHub account yet, go [here](https://github.com/signup) a
 
 ### Getting started
 
-Open a remote SSH terminal session to `node0`. Make sure you enable forwarding of the authentication agent connection.
+Open a remote SSH terminal session to `node0`, ensuring that authentication agent forwarding is enabled. 
+Verify that your SSH agent is loaded with the private key corresponding to the public key you uploaded to GitHub, as described in the [prep lab](../00-prep/README.md).
 
 Make sure you have already installed Git on your working machine (`node0`). To check if git is already installed, open the Terminal and hit:
 
