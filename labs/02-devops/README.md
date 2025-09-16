@@ -233,6 +233,8 @@ You're now setup to push changes to the remote repository:
 git push -u origin main
 ```
 
+> Troubleshooting: If git push fails with an authentication error, check that your SSH agent is running and loaded with the private key corresponding to the public key uploaded to GitHub as described in the [prep lab](../00-prep/README.md).
+
 If you're already setup for push as above, then the following will bring changes down and merge them in:
 
 ```
