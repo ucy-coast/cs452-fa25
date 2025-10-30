@@ -16,7 +16,7 @@ import (
 )
 
 // parseFlags parses and validates CLI flags; returns plain values.
-func parseFlags() (rpcAddr string, indexDir string, indexFiles string, shardID int, numShards int, partitioned bool) {
+func parseFlags() (rpcAddr string, indexDir string, indexFiles string, shardID int, numShards int, partitioned bool, useMemory bool) {
 	rpcAddrFlag := flag.String("rpc_addr", ":9090", "Address to listen on for RPC")
 	indexDirFlag := flag.String("index_dir", "", "Directory containing index-*.txt files")
 	indexFilesFlag := flag.String("index_files", "", "Comma-separated list of index files to load")
@@ -24,6 +24,7 @@ func parseFlags() (rpcAddr string, indexDir string, indexFiles string, shardID i
 	shardIDFlag := flag.Int("shard_id", -1, "Explicit shard ID (0-based). Overrides shard_name if set")
 	numShardsFlag := flag.Int("num_shards", -1, "Total number of shards")
 	partitionedFlag := flag.Bool("partitioned", false, "Enable shard partitioning")
+    useMemoryFlag := flag.Bool("use_memory", false, "Use in-memory index instead of scanning disk files")
 
 	flag.Parse()
 
@@ -56,7 +57,7 @@ func parseFlags() (rpcAddr string, indexDir string, indexFiles string, shardID i
 		}
 	}
 
-	return *rpcAddrFlag, *indexDirFlag, *indexFilesFlag, finalShardID, *numShardsFlag, *partitionedFlag
+	return *rpcAddrFlag, *indexDirFlag, *indexFilesFlag, finalShardID, *numShardsFlag, *partitionedFlag, *useMemoryFlag
 }
 
 func listAllFiles(indexDir string) ([]string, error) {
@@ -100,7 +101,7 @@ func selectFilesForShard(files []string, shardID, numShards int) []string {
 }
 
 func main() {
-	rpcAddr, indexDir, indexFiles, shardID, numShards, partitioned := parseFlags()
+	rpcAddr, indexDir, indexFiles, shardID, numShards, partitioned, useMemory := parseFlags()
 	
 	var files []string
 	var err error
@@ -126,7 +127,7 @@ func main() {
 		log.Fatalf("Failed to load index: %v", err)
 	}
 
-	server := indexserver.NewIndexServer(index)
+	server := indexserver.NewIndexServer(index, useMemory)
 	err = rpc.Register(server)
 	if err != nil {
 		log.Fatalf("Failed to register RPC server: %v", err)

@@ -8,11 +8,13 @@ import (
 // IndexServer exposes search functionality over RPC.
 type IndexServer struct {
 	index *invertedindex.InvertedIndex
+    useMemory bool
 }
 
-func NewIndexServer(index *invertedindex.InvertedIndex) *IndexServer {
+func NewIndexServer(index *invertedindex.InvertedIndex, useMemory bool) *IndexServer {
 	s := &IndexServer{
-		index:      index,
+		index:     index,
+        useMemory: useMemory,
 	}
 	return s
 }

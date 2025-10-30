@@ -13,6 +13,11 @@ func (s *IndexServer) Search(args *rpc_api.SearchArgs, reply *[]rpc_api.SearchRe
 
 	// Use the new index method to get top-k results with matched keywords
 	results, err := s.index.SearchInMemoryTopK(queryWords, args.TopK)
+    if s.useMemory {
+        results, err = s.index.SearchInMemoryTopK(queryWords, args.TopK)
+    } else {
+        results, err = s.index.SearchScanFiles(queryWords)
+    }
 	if err != nil {
 		return fmt.Errorf("search failed: %v", err)
 	}
